@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+/*HEADER*/
+.header{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+.user{
+    margin-top: 20px;
+    flex:80%;
+    justify-content: flex-start;
+}
+.user > span{
+    margin-left: 20%;
+}
+.logout{
+    margin-top: 20px;
+    flex:20%;
+    justify-content: flex-end;
+}
+.logout > button{
+    cursor: pointer;
+    background-color:  rgba(0,149,255,1);
+    padding: 10px 20px;
+    color:white;
+    border: none;
+    border-radius: 30px;
+}
+.logout > button:hover{
+    opacity: 0.8;
+}
+
+/*SEARCH*/
+.main{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-txt{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-txt > img{
+    height: 100%;
+    width: 40%;
+}
+.main-snd{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.browser{
+    margin-top: 5%;
+    background-color: gainsboro;
+    padding: 10px;
+    width: 25%;
+    border-radius: 30px;
+}
+.browser > span{
+    margin-left: 10px;
+}
+.browser > input{
+    margin-left: 5px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: black;
+    width: 80%;
+    font-size: 15px;
+}
+.main-snd > button{
+    margin-top: 5%;
+    margin-left: 20px;
+    cursor: pointer;
+    background-color:  rgba(0,149,255,1);
+    padding: 12px 30px;
+    color:white;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+}
+/*CONTENT FROM THE BACKEND*/
+.information{
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.relleno{
+    flex: 25%;
+}
+.content{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.title-cont{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.first{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.first > span{
+    width: 100%;
+    text-align: center;
+}
+
+.row{
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row > span{
+    width: 100%;
+    text-align: center;
+}

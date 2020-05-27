@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+/*RIGHT BACKGROUND IMAGE*/
+.img-cont{
+    height: 100%;
+    flex: 40%;
+    background-image: url("../imatges/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* LEFT LOGIN*/
+.form-cont{
+    flex:60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*FORM*/
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.login-cont {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 30px;
+  width: 480px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.login-cont > div {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+.login-header{
+    color: rgba(66, 134, 211, 0.904);
+    font-size: 20px;   
+    margin-bottom: 10px;
+}
+.login-un, .login-pw{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: gainsboro;
+    width: 70% !important;
+
+}
+
+input{
+    font-size: 15px;
+    width: 90%;
+    background: transparent;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    text-align: start;
+}
+button{
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    padding: 8px 25px;
+    background-color:  rgba(0,149,255,1);
+    border-radius: 30px;
+    border: none;
+    color:white;
+    font-size: 20px;
+}
+button:hover{
+    opacity: 0.8;
+}
+#pw1{
+  cursor: pointer;
+}
