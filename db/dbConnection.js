@@ -9,7 +9,7 @@ module.exports = class dbConnection{
     constructor(){
         this.dbConfig = {
             user: "root",
-            password: "Nikekobe8.",
+            password: "",
             database: "studentsDB",
             host: "localhost"
         }
